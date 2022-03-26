@@ -30,11 +30,10 @@ Discord.forEach(r => {
         fs.writeFileSync(f, getCode())
         console.log(`\x1b[32mPornhub Is Injected In ${f.split("/")[5]}\x1b[0m (Key: Alt D)`)
         already.push(f)
-        var res = Readline.question(`\x1b[33mShould I Kill Discord And ReOpen It To Use Pornhub ?\x1b[0m [y/n]: `)
-        if (res == "y") killDiscord()
-        else console.log(`\x1b[32mHave A Good Day !\x1b[0m`) ^ process.exit(3000)
     })
-
+    var res = Readline.question(`\x1b[33mShould I Kill Discord And ReOpen It To Use Pornhub ?\x1b[0m [y/n]: `)
+    if (res == "y") killDiscord()
+    else console.log(`\x1b[32mHave A Good Day !\x1b[0m`) ^ process.exit(3000)
 })
 
 
