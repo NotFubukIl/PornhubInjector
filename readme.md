@@ -7,6 +7,7 @@
 # Installation
 
 ```
+(Must Have NodeJS)
 -Open A CMD
 -Type npm i
 -type node index
