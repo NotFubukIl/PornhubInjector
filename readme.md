@@ -7,10 +7,10 @@
 # Installation
 
 ```
-(Must Have NodeJS)
+(Must Have [Nim](https://github.com/dom96/choosenim/releases))
 -Open A CMD
--Type npm i
--type node index
+-Type nim c -d:release .\main.nim
+-type main.exe
 There You Go
 ``` 
 
