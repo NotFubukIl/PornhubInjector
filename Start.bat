@@ -1,4 +1,5 @@
 @echo off
 cls
-node index.js
+nim c -d:release .\main.nim
+./main.exe
 pause
