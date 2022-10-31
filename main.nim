@@ -17,7 +17,7 @@ proc Walk(j: string): string =
         var b = re.findAll(a, re("cord|app|modules"))
         for n in b:
             if "discord_cloudsync" in a:
-                var zz = "ahah"
+                discard
             else: 
                 return a
             
